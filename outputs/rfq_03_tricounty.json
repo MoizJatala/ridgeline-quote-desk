@@ -1,0 +1,109 @@
+{
+  "rfq_id": "rfq_03_tricounty",
+  "customer_id": "C1010",
+  "customer_name": "Tri-County Water District",
+  "lines": [
+    {
+      "line": 1,
+      "as_written": "NF-220418\t3/4 brass ball valve FP\t15\tEA",
+      "quantity": 15,
+      "unit": "EA",
+      "ridgeline_part_number": "RL134741",
+      "match_method": "cross_reference",
+      "confidence": 0.9,
+      "needs_review": false,
+      "flags": [],
+      "note": "cross_reference: Northfield Supply NF-220418 -> RL134741; last_verified 2022-11-09 is before 2025-01-01 (-0.05)"
+    },
+    {
+      "line": 2,
+      "as_written": "NF-220420\t1\" brass ball valve FP\t10\tEA",
+      "quantity": 10,
+      "unit": "EA",
+      "ridgeline_part_number": "RL179507",
+      "match_method": "cross_reference",
+      "confidence": 0.95,
+      "needs_review": false,
+      "flags": [],
+      "note": "cross_reference: Northfield Supply NF-220420 -> RL179507"
+    },
+    {
+      "line": 3,
+      "as_written": "same as above but 1/2\"\t10\tEA\tsame spec as line 2",
+      "quantity": 10,
+      "unit": "EA",
+      "ridgeline_part_number": "RL172063",
+      "match_method": "description",
+      "confidence": 0.9,
+      "needs_review": false,
+      "flags": [],
+      "note": "description match score 0.91; description read as: 1/2\" brass ball valve, FP"
+    },
+    {
+      "line": 4,
+      "as_written": "NF-118203\t2\" flange gasket 150#\t40\tEA",
+      "quantity": 40,
+      "unit": "EA",
+      "ridgeline_part_number": "RL118373",
+      "match_method": "cross_reference",
+      "confidence": 0.9,
+      "needs_review": false,
+      "flags": [],
+      "note": "cross_reference: Northfield Supply NF-118203 -> RL118373; last_verified 2023-02-14 is before 2025-01-01 (-0.05)"
+    },
+    {
+      "line": 5,
+      "as_written": "NF-118204\t3\" flange gasket 150#\t40\tEA\t1/16 thk",
+      "quantity": 40,
+      "unit": "EA",
+      "ridgeline_part_number": "RL124050",
+      "match_method": "cross_reference",
+      "confidence": 0.75,
+      "needs_review": true,
+      "flags": [],
+      "note": "cross_reference: Northfield Supply NF-118204 -> RL124050; cross_reference note 'check thickness' (-0.15); last_verified 2022-11-09 is before 2025-01-01 (-0.05)"
+    },
+    {
+      "line": 6,
+      "as_written": "NF-310077\tAW46 hyd oil 5 gal\t6\tPAIL",
+      "quantity": 6,
+      "unit": "EA",
+      "ridgeline_part_number": "RL107944",
+      "match_method": "cross_reference",
+      "confidence": 0.9,
+      "needs_review": false,
+      "flags": [],
+      "note": "cross_reference: Northfield Supply NF-310077 -> RL107944; last_verified 2023-02-14 is before 2025-01-01 (-0.05); customer unit 'PAIL' is not a catalog unit"
+    },
+    {
+      "line": 7,
+      "as_written": "NF-505512\t20x20x2 pleated filter MERV 8\t4\tCS\tcs of 12",
+      "quantity": 4,
+      "unit": "CS",
+      "ridgeline_part_number": "RL149009",
+      "match_method": "cross_reference",
+      "confidence": 0.95,
+      "needs_review": false,
+      "flags": [],
+      "note": "cross_reference: Northfield Supply NF-505512 -> RL149009"
+    },
+    {
+      "line": 8,
+      "as_written": "NF-999120\tChlorine residual test kit\t2\tEA\tif available",
+      "quantity": 2,
+      "unit": "EA",
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": null,
+      "needs_review": true,
+      "flags": [
+        "not_carried"
+      ],
+      "note": "NF-999120 not found in products.csv or cross_reference.csv; no catalog product matched the description; description read as: Chlorine residual test kit"
+    }
+  ],
+  "non_item_rows": [
+    "Bid # TCWD-26-117    Responses due 10/20/2026    Contact: R. Haines, (217) 555-0190",
+    "Deliver to Plant 2, 4100 County Rd 9. Dock closes 2pm."
+  ]
+}

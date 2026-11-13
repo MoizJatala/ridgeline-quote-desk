@@ -1,0 +1,164 @@
+{
+  "threshold": 0.8,
+  "extraction_accuracy": 1.0,
+  "match_precision": 1.0,
+  "match_recall": 1.0,
+  "additional_metrics": {
+    "as_written_loose_match": 1.0,
+    "abstention_accuracy": 1.0,
+    "flag_accuracy": 1.0,
+    "match_method_accuracy": 1.0,
+    "counts": {
+      "key_lines": 19,
+      "extra_lines": 0,
+      "extraction_ok": 19,
+      "as_written_loose_ok": 19,
+      "returned_part": 17,
+      "part_correct": 17,
+      "key_expects_part": 17,
+      "key_expects_null": 2,
+      "abstained_ok": 2,
+      "flags_total": 19,
+      "flags_ok": 19,
+      "method_total": 19,
+      "method_ok": 19
+    },
+    "per_rfq": {
+      "rfq_01_email": {
+        "extraction_accuracy": 1.0,
+        "as_written_loose_match": 1.0,
+        "match_precision": 1.0,
+        "match_recall": 1.0,
+        "abstention_accuracy": 1.0,
+        "flag_accuracy": 1.0,
+        "match_method_accuracy": 1.0,
+        "counts": {
+          "key_lines": 5,
+          "extra_lines": 0,
+          "extraction_ok": 5,
+          "as_written_loose_ok": 5,
+          "returned_part": 4,
+          "part_correct": 4,
+          "key_expects_part": 4,
+          "key_expects_null": 1,
+          "abstained_ok": 1,
+          "flags_total": 5,
+          "flags_ok": 5,
+          "method_total": 5,
+          "method_ok": 5
+        }
+      },
+      "rfq_02_clearwater": {
+        "extraction_accuracy": 1.0,
+        "as_written_loose_match": 1.0,
+        "match_precision": 1.0,
+        "match_recall": 1.0,
+        "abstention_accuracy": null,
+        "flag_accuracy": 1.0,
+        "match_method_accuracy": 1.0,
+        "counts": {
+          "key_lines": 6,
+          "extra_lines": 0,
+          "extraction_ok": 6,
+          "as_written_loose_ok": 6,
+          "returned_part": 6,
+          "part_correct": 6,
+          "key_expects_part": 6,
+          "key_expects_null": 0,
+          "abstained_ok": 0,
+          "flags_total": 6,
+          "flags_ok": 6,
+          "method_total": 6,
+          "method_ok": 6
+        }
+      },
+      "rfq_03_tricounty": {
+        "extraction_accuracy": 1.0,
+        "as_written_loose_match": 1.0,
+        "match_precision": 1.0,
+        "match_recall": 1.0,
+        "abstention_accuracy": 1.0,
+        "flag_accuracy": 1.0,
+        "match_method_accuracy": 1.0,
+        "counts": {
+          "key_lines": 8,
+          "extra_lines": 0,
+          "extraction_ok": 8,
+          "as_written_loose_ok": 8,
+          "returned_part": 7,
+          "part_correct": 7,
+          "key_expects_part": 7,
+          "key_expects_null": 1,
+          "abstained_ok": 1,
+          "flags_total": 8,
+          "flags_ok": 8,
+          "method_total": 8,
+          "method_ok": 8
+        }
+      }
+    },
+    "threshold_sweep": [
+      {
+        "threshold": 0.5,
+        "auto_accepted": 16,
+        "auto_accepted_wrong": 0,
+        "review_rate": 0.1579
+      },
+      {
+        "threshold": 0.55,
+        "auto_accepted": 16,
+        "auto_accepted_wrong": 0,
+        "review_rate": 0.1579
+      },
+      {
+        "threshold": 0.6,
+        "auto_accepted": 16,
+        "auto_accepted_wrong": 0,
+        "review_rate": 0.1579
+      },
+      {
+        "threshold": 0.65,
+        "auto_accepted": 16,
+        "auto_accepted_wrong": 0,
+        "review_rate": 0.1579
+      },
+      {
+        "threshold": 0.7,
+        "auto_accepted": 16,
+        "auto_accepted_wrong": 0,
+        "review_rate": 0.1579
+      },
+      {
+        "threshold": 0.75,
+        "auto_accepted": 16,
+        "auto_accepted_wrong": 0,
+        "review_rate": 0.1579
+      },
+      {
+        "threshold": 0.8,
+        "auto_accepted": 15,
+        "auto_accepted_wrong": 0,
+        "review_rate": 0.2105
+      },
+      {
+        "threshold": 0.85,
+        "auto_accepted": 15,
+        "auto_accepted_wrong": 0,
+        "review_rate": 0.2105
+      },
+      {
+        "threshold": 0.9,
+        "auto_accepted": 12,
+        "auto_accepted_wrong": 0,
+        "review_rate": 0.3684
+      },
+      {
+        "threshold": 0.95,
+        "auto_accepted": 5,
+        "auto_accepted_wrong": 0,
+        "review_rate": 0.7368
+      }
+    ],
+    "mismatch_count": 0
+  }
+}

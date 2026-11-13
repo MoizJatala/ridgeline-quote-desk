@@ -1,0 +1,91 @@
+{
+  "rfq_id": "rfq_06_messy",
+  "customer_id": "C1008",
+  "customer_name": "Granite Peak Mining",
+  "lines": [
+    {
+      "line": 1,
+      "as_written": "bolts 3/8 x 1 1/2 gr5 - 300 (we usually get boxes)",
+      "quantity": 300,
+      "unit": "BX",
+      "ridgeline_part_number": "RL142504",
+      "match_method": "description",
+      "confidence": 0.9,
+      "needs_review": true,
+      "flags": [
+        "needs_human_review"
+      ],
+      "note": "description match score 0.90; no unit given and product is sold by BX; quantity may be pieces; description read as: bolts, 3/8 x 1 1/2, grade 5"
+    },
+    {
+      "line": 2,
+      "as_written": "nitrile gloves L - a few boxes",
+      "quantity": null,
+      "unit": "BX",
+      "ridgeline_part_number": "RL153354",
+      "match_method": "description",
+      "confidence": 0.62,
+      "needs_review": true,
+      "flags": [],
+      "note": "description match score 0.88, runner-up RL131850 at 0.88; quantity missing or vague; description read as: nitrile gloves, size L"
+    },
+    {
+      "line": 3,
+      "as_written": "NF-778812 x 4 (whatever you have thats equivalent)",
+      "quantity": 4,
+      "unit": null,
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": null,
+      "needs_review": true,
+      "flags": [
+        "needs_human_review"
+      ],
+      "note": "unresolved: Only a part number is given with no description; customer will accept an equivalent."
+    },
+    {
+      "line": 4,
+      "as_written": "6205 bearings sealed qty 24",
+      "quantity": 24,
+      "unit": "EA",
+      "ridgeline_part_number": "RL104165",
+      "match_method": "description",
+      "confidence": 0.89,
+      "needs_review": false,
+      "flags": [],
+      "note": "description match score 0.89; description read as: 6205 bearings, sealed"
+    },
+    {
+      "line": 5,
+      "as_written": "forklift tires 18x7-8 x4",
+      "quantity": 4,
+      "unit": null,
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": null,
+      "needs_review": true,
+      "flags": [
+        "not_carried"
+      ],
+      "note": "no catalog product matched the description; description read as: forklift tires, 18x7-8"
+    },
+    {
+      "line": 6,
+      "as_written": "o-rings 214 buna",
+      "quantity": null,
+      "unit": "PK",
+      "ridgeline_part_number": "RL165909",
+      "match_method": "description",
+      "confidence": 0.9,
+      "needs_review": true,
+      "flags": [],
+      "note": "description match score 0.92; quantity missing or vague; description read as: o-rings, size 214, buna"
+    }
+  ],
+  "non_item_rows": [
+    "need asap for the crusher rebuild:",
+    "(we usually get boxes)",
+    "(whatever you have thats equivalent)",
+    "sent from my phone"
+  ]
+}
